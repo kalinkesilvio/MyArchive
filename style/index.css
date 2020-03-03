@@ -1,0 +1,129 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: white; /*#00FECA*/
+}
+
+nav h1 {
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 0px;
+  position: absolute;
+}
+
+nav .navcontent {
+  float: right;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 0px 40px 0px 40px;
+  transition: 0.3s;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar {
+  margin-right: 200px;
+}
+
+.navbar #home:hover {
+  background-color: #F012BE;
+  color: white;
+  transition: 0.3s;
+}
+
+.navbar #fav:hover {
+  background-color: #01FF70;
+  color: white;
+  transition: 0.3s;
+}
+
+
+.firstPage #leftPic img {
+  height: 33%;
+  width: 30%;
+  float: left;
+}
+
+.firstPage #rightPic img {
+  height: 33%;
+  width: 68%;
+  margin-left: 2%;
+  float: left;
+}
+
+.firstPage #rightPic p {
+  margin-left: 40%;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  float: right;
+}
+
+.secondPage #leftPic2 {
+  margin-top: 100px;
+}
+
+.secondPage #leftPic2 img {
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 5%;
+  float: left;
+}
+
+.secondPage #rightPic2 img {
+  width: 50%;
+  float: left;
+  margin-top: 20%;
+  margin-left: -10%;
+}
+
+.secondPage #box1 {
+  height: 100px;
+  width: 220px;
+  background-color: white;
+  color: black;
+  margin-top: 65%;
+  margin-left: 40%;
+  position: absolute;
+  text-align: center;
+}
+
+.secondPage #box1 button {
+  background-color: skyblue;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  height: 60px;
+  width: 120px;
+  font-weight: bolder;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.secondPage #box1 button:hover {
+  background-color: #F012BE;
+  transition: 0.3s;
+}
+
+.secondPage {
+  position: relative;
+  min-height: 200vh;
+}
+
+#footer {
+  height: 100px;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
